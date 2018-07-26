@@ -3,7 +3,9 @@ This is a test repo to set up a version control system for the VBA modules in an
 
 The spreadsheet includes vba code in both worksheets and in separate modules.
 
-The workflow depends on githooks running a python script to extract the VBA code into separate files, which can then be imported back into Excel when ready to be published.
+The workflow depends on githooks running a python script to extract the VBA code into separate files, which can then be compared using Github's version control tools.
+
+All the coding must be done in the Excel VBA editor. There's no automated import of the files back into Excel yet.
 ## Prerequisites
 Although the instructions below include commands for Windows, they have only been tested on Mac.
 ### Python 2.7 or higher
