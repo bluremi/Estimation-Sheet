@@ -1,1 +1,1 @@
-' this is a test Class Module
+' this is a test, and I've made a change to this Class Module
