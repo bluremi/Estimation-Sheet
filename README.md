@@ -23,3 +23,19 @@ To download and install/update the latest release version of oletools, run the f
 pip install -U oletools
 ```
 Important: Since version 0.50, pip will automatically create convenient command-line scripts to run all the oletools from any directory: olevba, mraptor, oleid, rtfobj, etc.
+
+## Setup
+Clone the repository
+```
+git clone https://github.com/bluremi/Estimation-Sheet.git
+```
+
+Copy the files `pre-commit.py` and `pre-commit` into your `.git/hooks` directory within the cloned repo.
+
+Run the following command to make sure the hooks are triggeed whenever you do a `commit`:
+```
+chmod +x .git/hooks/pre-commit
+```
+
+From now on, when you execute `git commit`, the hook extracts the VBA code and adds it to your commit as a series of .bas files.
+
